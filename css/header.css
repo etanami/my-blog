@@ -1,0 +1,39 @@
+.header-area {
+    background-color: #161D5A;
+    position: sticky;
+    top: 0;
+    color: #fff;
+}
+
+.header-area .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.main-nav ul {
+    text-align: center;
+    margin: 1em 2em  0.5em;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: #fff;
+}
+
+.main-nav a:hover {
+    background-color: #28A4BD;
+}
+
+a:active {
+    background-color: #fff;
+    color: #000;
+}

@@ -1,0 +1,11 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./post-layout.css");
+@import url("./post-main.css");
+@import url("./resposiveness.css");
+
+
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

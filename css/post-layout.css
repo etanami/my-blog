@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 30vw 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "hd hd"
+    "side content"
+    "ft ft";
+    justify-content: center;
+}
+
+.header-area {
+    grid-area: hd;
+}
+
+aside {
+    grid-area: side;
+    
+}
+
+main {
+    grid-area: content;
+}
+
+.footer-area {
+    grid-area: ft;
+    border: 1px solid red;
+}

@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "hd hd"
+    "content content"
+    "ft ft";
+}
+
+.header-area {
+    grid-area: hd;
+}
+
+main {
+    grid-area: content;
+}
+
+.footer-area {
+    grid-area: ft;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 85vh 1fr;
+    grid-template-areas: 
+    "top top"
+    "bottomLeft bottomRight";
+    justify-content: center;
+}
+
+.intro-box {
+    grid-area: top;
+}
+
+.card-1 {
+    grid-area: bottomLeft;
+}
+
+.card-2 {
+    grid-area: bottomRight;
+}
+
