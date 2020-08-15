@@ -1,3 +1,8 @@
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .blog-area {
     padding: 2em;
     margin: 0 2em 0 2em;

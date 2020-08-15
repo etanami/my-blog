@@ -42,3 +42,11 @@
     background: #55ACEE;
     color: white;
 }
+
+.github {
+    color: #55ACEE;
+}
+
+.github:hover {
+    color: #E5973E;
+}

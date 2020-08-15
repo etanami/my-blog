@@ -1,28 +1,22 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 30vw 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    "hd hd"
-    "side content"
-    "ft ft";
-    justify-content: center;
 }
 
 .header-area {
-    grid-area: hd;
+    grid-column: 1 / 4;
 }
 
 aside {
-    grid-area: side;
+    grid-column: 1 / 2;
     
 }
 
 main {
-    grid-area: content;
+    grid-column: 2 / 4;
 }
 
 .footer-area {
-    grid-area: ft;
-    border: 1px solid red;
+    grid-column: 1 / 4;
 }
