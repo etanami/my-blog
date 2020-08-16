@@ -70,19 +70,45 @@ body {
     .grid-container {
         font-size: 16px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
-        "hd hd"
-        "content content"
-        "side side"
-        "ft ft";
+        "hd"
+        "main"
+        "aside"
+        "ft";
         justify-content: center;
     }
+    .header-area {
+        grid-area: hd;
+    }
+    
+    aside {
+        grid-area: aside;
+        
+    }
+    
+    main {
+        grid-area: main;
+    }
+    
+    .footer-area {
+        grid-area: ft;
+    }
+
     .blog-area {
         margin: 0 0.5em 0 0.5em;
-    }    
+    }
+
+    .about {
+        padding: 1em 2em 0 2em;
+    }
+
+    .about-me {
+        font-size: 16px;
+    }
+
     form {
-        margin: 1em 2em 1em 2em;
+        margin: 1em 4em 1em 4em;
     }
 }
