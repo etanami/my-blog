@@ -41,12 +41,12 @@
     margin: 2em 2em 2em 5em;
 }
 
-.card h2 {
+.card-heading {
     color: #161D5A;
     padding-left: 1.5em;
 }
 
-.card p {
+.card-intro {
     margin-bottom: 3em;
     padding-left: 1em;
     padding-right: 1em;
@@ -65,7 +65,7 @@
     color: red;
 }
 
-.visit img {
+.visit-img {
     max-width: 100%;
     height: auto;
 }
